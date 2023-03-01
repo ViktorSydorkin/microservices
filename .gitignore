@@ -3,11 +3,6 @@ HELP.md
 target/
 .mvn/
 out/
-discovery-service/target/*
-inventory-service/target/*
-product-service/target/*
-order-service/target/*
-target/*
 ### STS ###
 .apt_generated
 .classpath
