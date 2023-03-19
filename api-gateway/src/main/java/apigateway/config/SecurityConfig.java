@@ -17,6 +17,8 @@ public class SecurityConfig {
                         .permitAll()
                         .pathMatchers("/actuator/**")
                         .permitAll()
+                        .pathMatchers("/zipkin/**")
+                        .permitAll()
                         .anyExchange()
                         .authenticated())
                 .oauth2ResourceServer(ServerHttpSecurity.OAuth2ResourceServerSpec::jwt);
